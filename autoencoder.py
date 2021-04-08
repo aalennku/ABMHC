@@ -67,7 +67,7 @@ def abs_softmax(x):
 R = 16
 CHANNELS = data_mat.shape[-1]
 LAMBDA = 0.5
-EPOCHS = 1
+EPOCHS = 200
 BATCH_SIZE = 256
 
 vca_x = (data_mat.reshape(-1,CHANNELS).T-np.min(data_mat))/np.max(data_mat)
