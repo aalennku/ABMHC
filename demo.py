@@ -160,7 +160,7 @@ train_label = to_categorical(train_label, num_classes=NB_CLASSES)
 NUMBER_CLASSES = NB_CLASSES
 R = 16
 PATCH_SIZE = HALFSIZE * 2 + 1
-EPOCHS = 1
+EPOCHS = 300
 BATCH_SIZE = 128
 
 input_c = Input(shape=(PATCH_SIZE,PATCH_SIZE,R))
